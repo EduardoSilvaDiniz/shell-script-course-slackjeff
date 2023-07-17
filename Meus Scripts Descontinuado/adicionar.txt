@@ -1,0 +1,27 @@
+Spotify via DNF
+sudo dnf config-manager --add-repo=https://negativo17.org/repos/fedora-spotify.repo
+
+sudo rpm --import https://negativo17.org/repos/RPM-GPG-KEY-slaanesh
+
+sudo dnf install spotify-client
+
+Fonte: https://www.blogopcaolinux.com.br/2016/12/Instalando-o-Spotify-no-openSUSE-e-no-Fedora.html#fedora 
+Fonte: https://www.blogopcaolinux.com.br/2021/11/Guia-pos-instalacao-Fedora-35-Workstation.html
+
+Instlar...
+kdenlive
+gimp
+os Studio
+GOverlay
+
+Emuladores
+duckstation
+pcsx2
+RPCS3
+Retroarch
+Dolphin
+Yuzu
+Ryujinx
+Cemu via lutris
+Xemu
+Citra

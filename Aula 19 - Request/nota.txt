@@ -1,0 +1,9 @@
+# EXPANSAO DE STRINGS.
+Retorna o TAMANHO da string, ou o numero de caracteres
+presente dentro da string.
+${#variavel}
+
+
+
+
+

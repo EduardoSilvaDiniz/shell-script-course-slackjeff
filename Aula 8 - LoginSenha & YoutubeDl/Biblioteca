@@ -1,0 +1,6 @@
+function _help(){
+     echo \
+     "Opcoes Disponiveis:
+     -l, --login (abrir programa com menu!)
+     -h, --help (abrir esta opcao de ajuda...)"
+}

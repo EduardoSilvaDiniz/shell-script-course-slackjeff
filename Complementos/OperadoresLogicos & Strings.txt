@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+# Fazerndo varias operacoes
+# com o comando test e seus operadores
+# =	(confere se e igual)
+# !=	(confere se NAO e igual)
+# -n	(confere se e nulo)
+# -z	(confere se NAO e nulo)
+
+-lt : LESSTHAN ou E menor que
+-le : LESSEQUAL ou E menor igual
+
+-gt : GREATER THEN ou E maior que
+-ge : GREATER EQUAL ou E maior igual
+
+-eq : EQUAL OU IGUAL
+-ne : NOT EQUAL OU NAO IGUAL
+
+
+test="andre"
+
+#INICIO do Program
+read -p "qual e seu nome? " nome
+test -z "$nome"			\
+&& echo "variavel E nula"	\
+|| echo "variavel NAO E nula"
+

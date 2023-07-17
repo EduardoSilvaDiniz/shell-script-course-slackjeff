@@ -1,0 +1,3 @@
+EM SHELL (glob)
+|___* qualquer coisa
+|___? Um caractere Qualquer. arquivo-?.txt

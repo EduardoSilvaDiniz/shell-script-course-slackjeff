@@ -1,0 +1,7 @@
+${variavel:-TEXTO} , se variavel NAO esta Definida(NULA), retorna texto.
+
+${VARIAVEL:=TEXTO} , se variavel NAO esta Definida(NULA), DEFINA/ARMAZENE RECEBA O TEXTO...
+
+${VARIAVEL:?ERROR} , se variavel NAO esta Definida(NULA), RETORNE O ERROR!
+
+${VARIAVEL:+TEXTO} , se variavel ESTIVER Definida. Retorne Texto
